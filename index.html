@@ -1,0 +1,561 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;h1&gt;<span lang=AR-SA dir=RTL style='font-family:
+"Arial",sans-serif'>&#1576;&#1591;&#1575;&#1602;&#1575;&#1578; &#1575;&#1604;&#1571;&#1587;&#1574;&#1604;&#1577;
+&#1575;&#1604;&#1578;&#1593;&#1604;&#1610;&#1605;&#1610;&#1577;</span><span
+dir=LTR></span><span dir=LTR></span>&lt;/h1&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;card&quot;
+onclick=&quot;flipCard()&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;card-inner&quot;
+id=&quot;cardInner&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;card-front&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;p&gt;<span lang=AR-SA dir=RTL style='font-family:
+"Arial",sans-serif'>&#1605;&#1575; &#1607;&#1608; &#1575;&#1604;&#1593;&#1590;&#1608;
+&#1575;&#1604;&#1605;&#1587;&#1572;&#1608;&#1604; &#1593;&#1606; &#1590;&#1582;
+&#1575;&#1604;&#1583;&#1605; &#1601;&#1610; &#1580;&#1587;&#1605; &#1575;&#1604;&#1573;&#1606;&#1587;&#1575;&#1606;&#1567;</span><span
+dir=LTR></span><span dir=LTR></span>&lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;span class=&quot;hint&quot;&gt;<span lang=AR-SA
+dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1590;&#1594;&#1591; &#1604;&#1585;&#1572;&#1610;&#1577;
+&#1575;&#1604;&#1573;&#1580;&#1575;&#1576;&#1577;</span><span dir=LTR></span><span
+dir=LTR></span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;card-back&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;p&gt;<span lang=AR-SA dir=RTL style='font-family:
+"Arial",sans-serif'>&#1575;&#1604;&#1602;&#1604;&#1576;</span><span dir=LTR></span><span
+dir=LTR></span>  &lt;/p&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;navigation&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;button onclick=&quot;nextCard()&quot;&gt;<span
+lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1604;&#1587;&#1572;&#1575;&#1604;
+&#1575;&#1604;&#1578;&#1575;&#1604;&#1610;</span><span dir=LTR></span><span
+dir=LTR></span>&lt;/button&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>body {</p>
+
+<p class=MsoNormal>  background-color: #f4f7f6;</p>
+
+<p class=MsoNormal>  display: flex;</p>
+
+<p class=MsoNormal>  justify-content: center;</p>
+
+<p class=MsoNormal>  align-items: center;</p>
+
+<p class=MsoNormal>  height: 100vh;</p>
+
+<p class=MsoNormal>  margin: 0;</p>
+
+<p class=MsoNormal>  font-family: 'Arial', sans-serif;</p>
+
+<p class=MsoNormal>  direction: rtl; /* <span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1593;&#1588;&#1575;&#1606; &#1575;&#1604;&#1603;&#1604;&#1575;&#1605;
+&#1610;&#1592;&#1607;&#1585; &#1605;&#1606; &#1575;&#1604;&#1610;&#1605;&#1610;&#1606;
+&#1604;&#1604;&#1588;&#1605;&#1575;&#1604; &#1576;&#1588;&#1603;&#1604; &#1589;&#1581;&#1610;&#1581;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>.container {</p>
+
+<p class=MsoNormal>  text-align: center;</p>
+
+<p class=MsoNormal>  width: 100%;</p>
+
+<p class=MsoNormal>  max-width: 400px;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1588;&#1603;&#1604;
+&#1575;&#1604;&#1576;&#1591;&#1575;&#1602;&#1577; &#1608;&#1578;&#1571;&#1579;&#1610;&#1585;
+&#1575;&#1604;&#1579;&#1604;&#1575;&#1579;&#1610; &#1575;&#1604;&#1571;&#1576;&#1593;&#1575;&#1583;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>.card {</p>
+
+<p class=MsoNormal>  background-color: transparent;</p>
+
+<p class=MsoNormal>  width: 300px;</p>
+
+<p class=MsoNormal>  height: 200px;</p>
+
+<p class=MsoNormal>  perspective: 1000px;</p>
+
+<p class=MsoNormal>  margin: 20px auto;</p>
+
+<p class=MsoNormal>  cursor: pointer;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>.card-inner {</p>
+
+<p class=MsoNormal>  position: relative;</p>
+
+<p class=MsoNormal>  width: 100%;</p>
+
+<p class=MsoNormal>  height: 100%;</p>
+
+<p class=MsoNormal>  text-align: center;</p>
+
+<p class=MsoNormal>  transition: transform 0.6s;</p>
+
+<p class=MsoNormal>  transform-style: preserve-3d;</p>
+
+<p class=MsoNormal>  box-shadow: 0 4px 15px rgba(0,0,0,0.1);</p>
+
+<p class=MsoNormal>  border-radius: 10px;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1604;&#1605;&#1575;
+&#1575;&#1604;&#1603;&#1575;&#1585;&#1578; &#1610;&#1578;&#1602;&#1604;&#1576;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>.card.flipped .card-inner {</p>
+
+<p class=MsoNormal>  transform: rotateY(180deg);</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>.card-front, .card-back {</p>
+
+<p class=MsoNormal>  position: absolute;</p>
+
+<p class=MsoNormal>  width: 100%;</p>
+
+<p class=MsoNormal>  height: 100%;</p>
+
+<p class=MsoNormal>  backface-visibility: hidden;</p>
+
+<p class=MsoNormal>  display: flex;</p>
+
+<p class=MsoNormal>  flex-direction: column;</p>
+
+<p class=MsoNormal>  justify-content: center;</p>
+
+<p class=MsoNormal>  align-items: center;</p>
+
+<p class=MsoNormal>  border-radius: 10px;</p>
+
+<p class=MsoNormal>  padding: 20px;</p>
+
+<p class=MsoNormal>  box-sizing: border-box;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>.card-front {</p>
+
+<p class=MsoNormal>  background-color: white;</p>
+
+<p class=MsoNormal>  color: #333;</p>
+
+<p class=MsoNormal>  font-size: 1.2rem;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>.card-back {</p>
+
+<p class=MsoNormal>  background-color: #28a745; /* <span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1604;&#1608;&#1606; &#1571;&#1582;&#1590;&#1585;
+&#1604;&#1604;&#1573;&#1580;&#1575;&#1576;&#1577; &#1575;&#1604;&#1589;&#1581;&#1610;&#1581;&#1577;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>  color: white;</p>
+
+<p class=MsoNormal>  font-size: 1.4rem;</p>
+
+<p class=MsoNormal>  transform: rotateY(180deg);</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>.hint {</p>
+
+<p class=MsoNormal>  font-size: 0.8rem;</p>
+
+<p class=MsoNormal>  color: #888;</p>
+
+<p class=MsoNormal>  margin-top: 15px;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>button {</p>
+
+<p class=MsoNormal>  background-color: #007bff;</p>
+
+<p class=MsoNormal>  color: white;</p>
+
+<p class=MsoNormal>  border: none;</p>
+
+<p class=MsoNormal>  padding: 10px 25px;</p>
+
+<p class=MsoNormal>  border-radius: 5px;</p>
+
+<p class=MsoNormal>  cursor: pointer;</p>
+
+<p class=MsoNormal>  font-size: 1rem;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>button:hover {</p>
+
+<p class=MsoNormal>  background-color: #0056b3;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>const flashcards = [</p>
+
+<p class=MsoNormal>  { question: &quot;<span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1605;&#1575; &#1607;&#1608; &#1575;&#1604;&#1593;&#1590;&#1608;
+&#1575;&#1604;&#1605;&#1587;&#1572;&#1608;&#1604; &#1593;&#1606; &#1590;&#1582;
+&#1575;&#1604;&#1583;&#1605; &#1601;&#1610; &#1580;&#1587;&#1605; &#1575;&#1604;&#1573;&#1606;&#1587;&#1575;&#1606;&#1567;</span><span
+dir=LTR></span><span dir=LTR></span>&quot;, answer: &quot;<span lang=AR-SA
+dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1604;&#1602;&#1604;&#1576;</span><span
+dir=LTR></span><span dir=LTR></span>  &quot; },</p>
+
+<p class=MsoNormal>  { question: &quot;<span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1605;&#1575; &#1607;&#1610; &#1608;&#1581;&#1583;&#1577;
+&#1602;&#1610;&#1575;&#1587; &#1575;&#1604;&#1605;&#1602;&#1575;&#1608;&#1605;&#1577;
+&#1575;&#1604;&#1603;&#1607;&#1585;&#1576;&#1575;&#1574;&#1610;&#1577;&#1567;</span><span
+dir=LTR></span><span dir=LTR></span>&quot;, answer: &quot;<span lang=AR-SA
+dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1604;&#1571;&#1608;&#1605;</span><span
+dir=LTR></span><span dir=LTR></span> (Ohm)  &quot; },</p>
+
+<p class=MsoNormal>  { question: &quot;<span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1603;&#1605; &#1593;&#1583;&#1583; &#1603;&#1608;&#1575;&#1603;&#1576;
+&#1575;&#1604;&#1605;&#1580;&#1605;&#1608;&#1593;&#1577; &#1575;&#1604;&#1588;&#1605;&#1587;&#1610;&#1577;&#1567;</span><span
+dir=LTR></span><span dir=LTR></span>&quot;, answer: &quot;8 <span lang=AR-SA
+dir=RTL style='font-family:"Arial",sans-serif'>&#1603;&#1608;&#1575;&#1603;&#1576;</span><span
+dir=LTR></span><span dir=LTR></span>  &quot; }</p>
+
+<p class=MsoNormal>];</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>let currentIndex = 0;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function flipCard() {</p>
+
+<p class=MsoNormal> 
+document.querySelector('.card').classList.toggle('flipped');</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function nextCard() {</p>
+
+<p class=MsoNormal>  const card = document.querySelector('.card');</p>
+
+<p class=MsoNormal>  if (card.classList.contains('flipped')) {</p>
+
+<p class=MsoNormal>    card.classList.remove('flipped');</p>
+
+<p class=MsoNormal>    setTimeout(changeContent, 300);</p>
+
+<p class=MsoNormal>  } else {</p>
+
+<p class=MsoNormal>    changeContent();</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function changeContent() {</p>
+
+<p class=MsoNormal>  currentIndex = (currentIndex + 1) % flashcards.length;</p>
+
+<p class=MsoNormal>  document.querySelector('.card-front p').innerText =
+flashcards[currentIndex].question;</p>
+
+<p class=MsoNormal>  document.querySelector('.card-back p').innerText =
+flashcards[currentIndex].answer;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                          </p>
+
+<br clear=all style='page-break-before:always'>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;h1&gt;<span lang=AR-SA dir=RTL style='font-family:
+"Arial",sans-serif'>&#1605;&#1615;&#1608;&#1604;&#1583; &#1575;&#1604;&#1581;&#1616;&#1603;&#1605;</span><span
+dir=LTR></span><span dir=LTR></span>&lt;/h1&gt;</p>
+
+<p class=MsoNormal>  &lt;p id=&quot;quote&quot;&gt;<span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1575;&#1590;&#1594;&#1591; &#1593;&#1604;&#1609;
+&#1575;&#1604;&#1586;&#1585;&#1575;&#1585; &#1604;&#1578;&#1592;&#1607;&#1585; &#1604;&#1603;
+&#1581;&#1603;&#1605;&#1577;</span><span dir=LTR></span><span dir=LTR></span>&lt;/p&gt;</p>
+
+<p class=MsoNormal>  &lt;button onclick=&quot;newQuote()&quot;&gt;<span
+lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1581;&#1603;&#1605;&#1577;
+&#1580;&#1583;&#1610;&#1583;&#1577;</span><span dir=LTR></span><span dir=LTR></span>&lt;/button&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1578;&#1606;&#1587;&#1610;&#1602;
+&#1575;&#1604;&#1589;&#1601;&#1581;&#1577; &#1576;&#1575;&#1604;&#1603;&#1575;&#1605;&#1604;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>body {</p>
+
+<p class=MsoNormal>  background-color: #f0f2f5; /* <span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1604;&#1608;&#1606; &#1582;&#1604;&#1601;&#1610;&#1577;
+&#1607;&#1575;&#1583;&#1574;</span><span dir=LTR></span><span dir=LTR></span>
+*/</p>
+
+<p class=MsoNormal>  display: flex;</p>
+
+<p class=MsoNormal>  justify-content: center;</p>
+
+<p class=MsoNormal>  align-items: center;</p>
+
+<p class=MsoNormal>  height: 100vh;</p>
+
+<p class=MsoNormal>  margin: 0;</p>
+
+<p class=MsoNormal>  font-family: 'Arial', sans-serif;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1604;&#1589;&#1606;&#1583;&#1608;&#1602;
+&#1575;&#1604;&#1604;&#1610; &#1580;&#1608;&#1575;&#1607; &#1575;&#1604;&#1603;&#1604;&#1575;&#1605;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>.container {</p>
+
+<p class=MsoNormal>  background-color: white;</p>
+
+<p class=MsoNormal>  padding: 30px;</p>
+
+<p class=MsoNormal>  border-radius: 15px; /* <span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1581;&#1608;&#1575;&#1601; &#1605;&#1587;&#1578;&#1583;&#1610;&#1585;&#1577;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* <span
+lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1592;&#1604; &#1582;&#1601;&#1610;&#1601;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>  text-align: center;</p>
+
+<p class=MsoNormal>  max-width: 400px;</p>
+
+<p class=MsoNormal>  width: 90%;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1578;&#1606;&#1587;&#1610;&#1602;
+&#1575;&#1604;&#1581;&#1603;&#1605;&#1577;</span><span dir=LTR></span><span
+dir=LTR></span> */</p>
+
+<p class=MsoNormal>#quote {</p>
+
+<p class=MsoNormal>  font-size: 1.2rem;</p>
+
+<p class=MsoNormal>  color: #333;</p>
+
+<p class=MsoNormal>  margin: 20px 0;</p>
+
+<p class=MsoNormal>  min-height: 50px;</p>
+
+<p class=MsoNormal>  line-height: 1.6;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1578;&#1606;&#1587;&#1610;&#1602;
+&#1575;&#1604;&#1586;&#1585;&#1575;&#1585;</span><span dir=LTR></span><span
+dir=LTR></span> */</p>
+
+<p class=MsoNormal>button {</p>
+
+<p class=MsoNormal>  background-color: #007bff; /* <span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1604;&#1608;&#1606; &#1571;&#1586;&#1585;&#1602;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>  color: white;</p>
+
+<p class=MsoNormal>  border: none;</p>
+
+<p class=MsoNormal>  padding: 10px 25px;</p>
+
+<p class=MsoNormal>  border-radius: 5px;</p>
+
+<p class=MsoNormal>  cursor: pointer;</p>
+
+<p class=MsoNormal>  font-size: 1rem;</p>
+
+<p class=MsoNormal>  transition: 0.3s; /* <span lang=AR-SA dir=RTL
+style='font-family:"Arial",sans-serif'>&#1606;&#1593;&#1608;&#1605;&#1577; &#1601;&#1610;
+&#1578;&#1594;&#1610;&#1610;&#1585; &#1575;&#1604;&#1604;&#1608;&#1606;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>/* <span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1581;&#1585;&#1603;&#1577;
+&#1604;&#1605;&#1575; &#1575;&#1604;&#1605;&#1575;&#1608;&#1587; &#1610;&#1610;&#1580;&#1610;
+&#1593;&#1604;&#1609; &#1575;&#1604;&#1586;&#1585;&#1575;&#1585;</span><span
+dir=LTR></span><span dir=LTR></span> */</p>
+
+<p class=MsoNormal>button:hover {</p>
+
+<p class=MsoNormal>  background-color: #0056b3;</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>const quotes = [</p>
+
+<p class=MsoNormal>  &quot;<span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1604;&#1593;&#1604;&#1605;
+&#1589;&#1610;&#1583; &#1608;&#1575;&#1604;&#1603;&#1578;&#1575;&#1576;&#1577; &#1602;&#1610;&#1583;&#1607;</span><span
+dir=LTR></span><span dir=LTR></span>.&quot;,</p>
+
+<p class=MsoNormal>  &quot;<span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1575;&#1604;&#1608;&#1602;&#1578;
+&#1603;&#1575;&#1604;&#1587;&#1610;&#1601; &#1573;&#1606; &#1604;&#1605; &#1578;&#1602;&#1591;&#1593;&#1607;
+&#1602;&#1591;&#1593;&#1603;</span><span dir=LTR></span><span dir=LTR></span>.&quot;,</p>
+
+<p class=MsoNormal>  &quot;<span lang=AR-SA dir=RTL style='font-family:"Arial",sans-serif'>&#1605;&#1606;
+&#1580;&#1583; &#1608;&#1580;&#1583; &#1608;&#1605;&#1606; &#1586;&#1585;&#1593;
+&#1581;&#1589;&#1583;</span><span dir=LTR></span><span dir=LTR></span>.&quot;</p>
+
+<p class=MsoNormal>];</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function newQuote() {</p>
+
+<p class=MsoNormal>  const randomIndex = Math.floor(Math.random() *
+quotes.length);</p>
+
+<p class=MsoNormal>  document.getElementById(&quot;quote&quot;).innerText =
+quotes[randomIndex];</p>
+
+<p class=MsoNormal>}</p>
+
+</div>
+
+</body>
+
+</html>
